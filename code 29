@@ -1,0 +1,7 @@
+d = {}
+d[input("Key: ")] = input("Value: ")
+
+key = input("Key to update: ")
+d[key] = input("New value: ")
+
+print(d)

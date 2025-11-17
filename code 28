@@ -1,0 +1,9 @@
+d = {}
+key = input("Enter key: ")
+value = input("Enter value: ")
+d[key] = value
+
+print("Dictionary:", d)
+
+k = input("Key to access: ")
+print("Value:", d.get(k, "Not found"))
